@@ -1,0 +1,109 @@
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="Nostra">
+      <div><h2 id="a1">Nostra</h2></div>
+      
+      <div id="one">Home</div>
+      <div id="two">Collections</div>
+      <div id="three">Contact Us</div>
+      <div id="noned" onclick="worked()"><i class="fa-sharp fa-solid fa-bars"></i></div>
+
+    </div>
+    <div class="sidenavbar">
+        <p id="para" onclick="closed()">x</p>
+        <p id="look" onclick="sided()">Home</p>
+        <p id="look" onclick="sideds()">Collections</p>
+        <p id="look" onclick="side()">Contact Us</p>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="header">
+        <div>
+        <h1 class="level">Level up your style</h1>
+        <p class="level2">With our stunning Collections</p>
+        <button class="but">Show Now</button>
+        </div>
+        <div>
+            <img src="fas1.jpg">
+        </div>
+    </div>
+    <h1 class="provide">WE Provide Customer Experiences</h1>
+    <div class="weare">
+        
+        <div class="wesame">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse quos sed nam ex ullam aliquid qui, dignissimos quisquam omnis aspernatur.</p>
+
+        </div>
+        <div class="wesame">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse quos sed nam ex ullam aliquid qui, dignissimos quisquam omnis aspernatur.</p>
+            
+        </div>
+        <div class="wesame">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse quos sed nam ex ullam aliquid qui, dignissimos quisquam omnis aspernatur.</p>
+            
+        </div>
+    </div>
+                
+        
+    <h2 class="new">New Arrivals</h2>
+    <div class="arrival">
+        <div><img src="fas1.jpg">
+    <p class="pd">Shop Now-></p></div>
+        <div><img src="fas2.jpeg">
+            <p class="pd">Shop Now-></p></div>
+            <div><img src="fas3.jpeg">
+                <p class="pd">Shop Now-></p></div>
+                <div><img src="fas4.jpeg">
+                    <p class="pd">Shop Now-></p></div>
+    </div>
+    <h2 class="contact">Contact Us</h2>
+    <br>
+    <br>
+    <div class="contacted">
+        <table>
+            <tr><td>Name</td></tr>
+            <tr><td><input type="text"></td></tr>
+            <tr><td>Contact</td></tr>
+            <tr><td><input type="text"></td></tr>
+            <tr><td>Address</td></tr>
+            <tr><td><input type="text"></td></tr>
+            <tr><td>Message</td></tr>
+            <tr><td><input type="text"></td></tr>
+        </table>
+        </div>
+      
+
+    <script>
+        var a=document.querySelector(".sidenavbar")
+        function worked(){
+            a.style.left="0"
+        }
+        function closed(){
+            a.style.left="-70%"
+        }
+function side(){
+    window.location.assign("contact.html")
+}
+function sided(){
+    window.location.assign("simple.html")
+}
+function sideds(){
+    window.location.assign("collections.html")
+}
+
+
+    </script>
+    
+</body>
+</html>
